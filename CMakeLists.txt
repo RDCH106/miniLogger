@@ -17,7 +17,7 @@ set(MINILOGGER_EXTRA_INCS "")
 
 # Project step III: Add minilogger VAR
 # ------------------------------------------------------------------------------------------------------
-list(APPEND MINILOGGER_EXTRA_INCS "${CMAKE_CURRENT_SOURCE_DIR}/include")
+list(APPEND MINILOGGER_EXTRA_INCS "${CMAKE_CURRENT_SOURCE_DIR}/minilogger/include")
 MESSAGE("Using minilogger from: ${MINILOGGER_EXTRA_INCS}")
 
 # Project step IV: Add samples
