@@ -9,6 +9,7 @@ include(CheckCXXSourceRuns)
 # Project step II: Set up project name
 # ------------------------------------------------------------------------------------------------------
 set(PROJ_MAIN_NAME minilogger)
+project(${PROJ_MAIN_NAME})
 
 # Required libraries, flags, and include files for compiling and linking against MINILOGGER (all targets)
 set(MINILOGGER_EXTRA_LIBS "")
