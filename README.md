@@ -12,6 +12,8 @@ C++ logger with logging levels (standard output)
 
 ## Quick example
 
+Include and declare the logger where you want with these three lines:
+
 ```cpp
 #include "logger.h"
 #define ___LOG_LEVEL
@@ -24,7 +26,7 @@ Where the different levels of log can be (ordered from highest to lowest informa
 + `___LOG_WARNING` --> Shows WARNING and ERROR
 + `___LOG_ERROR` --> Show ERROR
 
-Print desired info en each level using:
+Print desired info in each level using:
 
 + `LOGD("Debug message")`
 + `LOGI("Info message")`
