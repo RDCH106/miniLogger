@@ -39,6 +39,14 @@ Thanks to `iostream` it is possible to concatenate data of different types and i
 LOGD("my_text" << 10 << true);
 ```
 
+If you want to deactivate the logger, only comment the line where the level of the logger is defined:
+
+```cpp
+#include "logger.h"
+//#define ___LOG_LEVEL
+#define LOG_TAG  "TEST_TAG"
+```
+
 # Execute examples
 
 ## Compiling
