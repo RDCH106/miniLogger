@@ -5,9 +5,9 @@ C++ logger with logging levels (standard output)
 
 # Easy to Use:
 
-1) Include `minilogger.h`
-2) Set desired log level
-3) Set desired log tag 
+1) Set desired log level
+2) Set desired log tag
+3) Include `minilogger.h`
 4) Print messages for desired log level
 
 ## Quick example
@@ -15,9 +15,9 @@ C++ logger with logging levels (standard output)
 Include and declare the logger where you want with these three lines:
 
 ```cpp
-#include "logger.h"
 #define ___LOG_LEVEL
 #define LOG_TAG  "TEST_TAG"
+#include "logger.h"
 ```
 Where the different levels of log can be (ordered from highest to lowest information shown):
 
@@ -42,9 +42,9 @@ LOGD("my_text" << 10 << true);
 If you want to deactivate the logger, only comment the line where the level of the logger is defined:
 
 ```cpp
-#include "logger.h"
 //#define ___LOG_LEVEL
 #define LOG_TAG  "TEST_TAG"
+#include "logger.h"
 ```
 
 # Execute examples
