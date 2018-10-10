@@ -1,5 +1,11 @@
 #pragma once
 
+///////////////////////////////////////////////////
+// NAME: minilogger                              //
+// LICENSE: LGPL-3.0                             //
+// SOURCE: https://github.com/RDCH106/miniLogger //
+///////////////////////////////////////////////////
+
 #if defined(___LOG_DEBUG)
 #  include <iostream>
 #  define LOGD(...) std::cout << "  " << __VA_ARGS__ << "\t -  " << LOG_TAG << std::endl;
