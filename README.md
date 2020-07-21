@@ -17,7 +17,7 @@ Include and declare the logger where you want with these three lines:
 ```cpp
 #define ___LOG_LEVEL
 #define LOG_TAG  "TEST_TAG"
-#include "logger.h"
+#include "minilogger.h"
 ```
 Where the different levels of log can be (ordered from highest to lowest information shown):
 
@@ -44,7 +44,7 @@ If you want to deactivate the logger, only comment the line where the level of t
 ```cpp
 //#define ___LOG_LEVEL
 #define LOG_TAG  "TEST_TAG"
-#include "logger.h"
+#include "minilogger.h"
 ```
 
 # Execute examples
