@@ -42,7 +42,6 @@
 
 #else
 // NO LOGS
-#  define LOGV(...)
 #  define LOGD(...)
 #  define LOGI(...)
 #  define LOGW(...)
